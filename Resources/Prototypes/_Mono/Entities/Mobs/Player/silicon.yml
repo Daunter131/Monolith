@@ -129,10 +129,11 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 6
+    maxModules: 8
     moduleWhitelist:
       tags:
       - BorgModuleGeneric
+      - BorgModuleEngineering
       - BorgModuleSyndicate
       - BorgModuleSyndicateAssault
     hasMindState: derelict_e
@@ -158,6 +159,10 @@
       - BorgModuleOperative
       - BorgModuleSyndicateWeapon
       - BorgModuleJetpack
+      - BorgModuleTool
+      - BorgModuleConstruction
+      - BorgModuleCable
+      - BorgModuleRCD
       - BorgModuleGPS
   - type: ItemSlots
     slots:
@@ -187,7 +192,7 @@
 - type: entity
   id: PlayerStationAiRedacted
   parent: PlayerStationAiEmpty
-  suffix: Job spawn, Remnant
+  suffix: Ghost Role, Remnant
   components:
   - type: ContainerComp
     proto: AiHeldRedacted
@@ -278,7 +283,7 @@
 - type: entity
   id: PlayerStationAiVessel
   parent: PlayerStationAiEmpty
-  suffix: Job spawn, Vessel
+  suffix: Ghost Role, Vessel
   components:
   - type: ContainerComp
     proto: AiHeldVessel
@@ -377,7 +382,7 @@
 - type: entity
   id: PlayerStationAiTSFMC
   parent: PlayerStationAiEmpty
-  suffix: Job spawn, TSFMC
+  suffix: Ghost Role, TSFMC
   components:
   - type: ContainerComp
     proto: AiHeldTSFMC
@@ -429,6 +434,7 @@
     - Engineering
     - Medical
     - Nfsd
+    - Command
   - type: ActiveRadio
     channels:
     - Binary
@@ -439,6 +445,7 @@
     - Engineering
     - Medical
     - Nfsd
+    - Command
   - type: IgnoreUIRange
   - type: StationAiHeld
   - type: StationAiOverlay
@@ -478,7 +485,7 @@
 - type: entity
   id: PlayerStationAiRogue
   parent: PlayerStationAiEmpty
-  suffix: Job spawn, Rogue
+  suffix: Ghost Role, Rogue
   components:
   - type: ContainerComp
     proto: AiHeldRogue

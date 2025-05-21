@@ -3,8 +3,17 @@
 uplink-pirate-medical-bundle-name = Interdyne Medical Bundle
 uplink-pirate-medical-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
 
+uplink-pirate-interdyne-defibrillator-name = Interdyne Defibrillator
+uplink-pirate-interdyne-defibrillator-desc = An elite compact defibrillator that can be used as a weapon, now sold separately. Surprisingly deadly.
+
 uplink-pirate-chemical-synthesis-kit-name = Chemical Synthesis Kit
 uplink-pirate-chemical-synthesis-kit-desc = A starter kit for the aspiring chemist, includes toxin and vestine for all your criminal needs!
+
+uplink-pirate-syndicate-magboots-name = Blood-red Magboots
+uplink-pirate-syndicate-magboots-desc = A pair of boots that prevent slipping and, in zero gravity, allow you to move normally, at the cost of a slight slowdown. Additionally, they have jetpack functionality and come fueled, but don't last for long.
+
+uplink-pirate-syndicate-jetpack-name = Black Jetpack
+uplink-pirate-syndicate-jetpack-desc = A black jetpack. It allows you to fly around in space. Refills not included, use your fuel wisely.
 
 uplink-pirate-emp-grenade-name = EMP Grenade
 uplink-pirate-emp-grenade-desc = A grenade designed to disrupt electronic systems. Useful for disrupting communications, security's energy weapons, and APCs when you're in a tight spot.
@@ -149,6 +158,12 @@ uplink-pirate-box-highcal-he-desc = A box of explosive ammunition for the Burner
 
 uplink-pirate-combat-hardsuit-name = Combat Hardsuit
 uplink-pirate-combat-hardsuit-desc = Definitely not just a stolen SCAF suit. Incase you lost yours.
+
+uplink-pirate-viper-group-standard-hardsuit-name = Viper Group JACKAL Hardsuit
+uplink-pirate-viper-group-standard-hardsuit-desc = A hardsuit adorned with signature markings of the Viper Group. The armor is remarkably nimble for its protection and has a built-in nightvision system.
+
+uplink-pirate-viper-group-medic-hardsuit-name = Viper Group IMP Hardsuit
+uplink-pirate-viper-group-medic-hardsuit-desc = A hardsuit adorned with signature markings of the Viper Group. The armor features various reinforced plating in vital areas and a medical HUD complemented by thermal pulse systems.
 
 uplink-pirate-webvest-name = Syndicate Webvest
 uplink-pirate-webvest-desc = A webvest smuggled into the sector that hasn't been downgraded like ones utilized by contractors. Great pierce resist, poor heat resist.

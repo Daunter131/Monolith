@@ -97,7 +97,7 @@
   - type: ShipGunType
     shipType: Ballistic
 
-# CYREXA
+# Cyrexa 220mm
 
 - type: entity
   id: WeaponTurretCyrexa
@@ -111,7 +111,7 @@
     sprite: _Mono/Objects/ShuttleWeapons/cyrexa.rsi
     layers:
     - state: space_artillery
-    scale: 1.5, 1.5
+    scale: 1, 1
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
@@ -126,7 +126,11 @@
         shape:
           !type:PhysShapeAabb
           bounds: "-0.75,-0.75,0.75,0.75"
-        density: 1500 # fat mf
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: Gun
     projectileSpeed: 105
     fireRate: 0.125
@@ -193,8 +197,12 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.75,-0.75,0.75,0.75"
-        density: 1500 # fat mf
+          bounds: "-0.25,-0.25,0.25,0.25"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: Destructible
     thresholds:
     - trigger:
